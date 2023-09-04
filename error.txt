@@ -1,0 +1,9 @@
+1.Display in name if feed screen ( Split) - done
+2. Share post this is text demo - done
+3. Shimmer in avatar Image
+4. Followers in profile screen - done
+5.Back button on home screen to prompt to logout
+6. Story view
+7. Reduce loading time
+
+

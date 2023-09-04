@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "526121573343",
+    "project_id": "viewyourstories-4bf4d",
+    "storage_bucket": "viewyourstories-4bf4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526121573343:android:c2673ca1f768741fc6c26a",
+        "android_client_info": {
+          "package_name": "com.sixteenbrains.taleway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526121573343-onfls77n0h0ltfiffupaoqq770raqnu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDcYdDpcq9iGeKkyOTD9GS_tAvkKgZQfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526121573343-onfls77n0h0ltfiffupaoqq770raqnu6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526121573343-141ibvle65nourrg2i47a68rdorene0p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sixteenbrains.taleway"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

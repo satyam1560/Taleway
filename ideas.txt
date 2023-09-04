@@ -1,0 +1,4 @@
+14 Feb - 
+    1. We can have a trending section at the top to populate the app
+    and increase user ingagement
+    

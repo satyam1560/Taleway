@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>526121573343-141ibvle65nourrg2i47a68rdorene0p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.526121573343-141ibvle65nourrg2i47a68rdorene0p</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>526121573343-4v3enc67m0dpmhjf5n37v5ia2nogdgsk.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDLa9JGLldjtwUH45Pe-8p4giN8REaHq4s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>526121573343</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sixteenbrains.taleway</string>
+	<key>PROJECT_ID</key>
+	<string>viewyourstories-4bf4d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>viewyourstories-4bf4d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:526121573343:ios:4df7d50bf3850264c6c26a</string>
+</dict>
+</plist>

@@ -1,0 +1,183 @@
+
+Bugs - 
+
+1) Search case sensitive  - done
+2) Follow count display should be faster
+3) Play button visible on own profile - done
+4) Post option- Camera should be visible 
+5) Issue in notification
+6) View story page- We ourself should not be visible 
+7) Report button is not Visible on view story page - done
+8) Action button show only on one tap and hide on tap again 
+9) Profile icon on story view should align to adress text  - done
+10) New User List - done
+11) Notification page back button padding - done
+
+
+Todo - 
+
+1) Block User
+2) Post options- Report a) Sexual content b) Bullying c) Hate speech d) False information 
+3) User sign - Terms and condition 
+4) Pop up- “The reporter post would get removed in 24 hours”
+
+
+
+
+
+
+
+
+
+
+Mon 7 March
+Pagination - 
+1. User feed collection items
+2. User prfofile own collection
+3. User own stories
+4. User own profile followings
+5. Others profile stories collection
+6. Reduce loading time in firebase and Flutter research
+7. Reduce image size
+8. Story background according to image  (color pallet)
+9. In the add to , we can show that in which collection user already belongs 
+10. Stop stream on feed use future
+11. Feed screen -- collection name changes postition if new item is added to them
+12 Arrange recent users on search screen accrding to recent users first
+
+Pagination resourses - https://www.youtube.com/watch?v=si6sTuVZxtw
+
+
+
+2 Refator
+
+
+
+1. Add screen for all stories from collection from profile / others profile
+
+Rishu Roy: Issue
+ 1.Tag user is not working on user profile post view - done
+ 2. Showing own notification on notification screen
+ 3.Also in comments
+ 4.Also remove own views on views sheet
+ 5.Solve tag users on every screen
+
+
+Delete option where ever possible
+Share app icon on feed screen
+Fix tag issue
+change lib to collection
+
+PhotoFilter - https://pub.dev/packages/photofilters
+Camera https://pub.dev/packages/camerawesome
+
+1.Design - 
+    (i) Screen for no network screen
+    (ii) Following button on user personal profile
+    (iii) Following screen
+    (iv)  Change in profle screen ( alignment)
+
+2.Erros 
+ No App Check token for request.
+
+https://stackoverflow.com/questions/68441059/no-app-check-token-for-request-flutter-firebase-error
+
+
+Bugs -
+i) Image strech
+ii) search
+iii) Suggestions
+iv) create a post
+v) When people get changed from library the user added 
+to that library comes first  - change order by
+v) view notification 
+vi) tag 
+
+
+Todo Next
+1. Share your stories to insta, facebook and snapshat
+
+
+    Till 17th
+    1) Post from multiple account(Instagram, Snapchat, Facebook)
+    2) Recent users list 
+    3) Unfollow
+    4) Internet check
+    5) All friends section or screen, 
+    where users can see all their followed friends and in that user have option of 
+    add to collection or navigate to their profile
+
+
+https://developers.facebook.com/docs/instagram/sharing-to-stories#android-developers
+
+https://docs.snap.com/docs/snap-kit/home
+
+https://developers.facebook.com/docs/instagram-api/overview#authentication
+
+https://www.youtube.com/watch?v=EmIFd4xbWnc
+
+Scrape Instagram Data Legally From Your Web Traffic
+https://stevesie.com/apps/instagram-api
+
+Todo 13 Feb
+
+
+
+1. Give add to collection name on others profile
+2. Make a page to show uers or collection vertical
+3. Edit Collection name
+4. Delete collection name
+5. Database schema
+6. See all stories(own) and now add them to users collections (seprate page)
+
+
+
+*************************************************
+// 8 Feb 
+1) Follow
+2) User-Add to 
+3) Create a new collection in post page(Drop Down)
+4) Home page 
+5) Create a new collection on my profile 
+6) Create new library home page
+
+
+
+1. Comments
+2. Views Info
+3. Tag Users
+4. Add New Library
+5. Follow
+6. Comments Reply
+7. Commets View Redirect
+
+
+1. Create Login/ Sign Up Screen.
+2. Add Firebase 
+3. Create HomeSreen
+4. Add Search screen
+5. Add User profile screen
+
+Delete document from Firestore after a date passed
+https://stackoverflow.com/questions/58891027/delete-document-from-firestore-after-a-date-passed/69953474
+
+
+
+Guideline 1.2 - Safety - User Generated Content
+
+
+We found in our review that your app includes user-generated content but does not have all the required precautions. Apps with user-generated content must take specific steps to moderate content and prevent abusive behavior.
+
+Next Steps
+
+To resolve this issue, please revise your app to implement the following precautions:
+
+- Require that users agree to terms (EULA) and these terms must make it clear that there is no tolerance for objectionable content or abusive users
+- A method for filtering objectionable content
+- A mechanism for users to flag objectionable content
+- A mechanism for users to block abusive users
+- The developer must act on objectionable content reports within 24 hours by removing the content and ejecting the user who provided the offending content
+
+Resources
+
+Learn more about our policies for user-generated content in App Store Review Guideline 1.2.

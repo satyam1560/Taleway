@@ -1,0 +1,12 @@
+1) Upon sign up it shows “NA” and the image is not loading.  done
+2) Upon search shows different result
+3) Home Screen text should called “Create New Library” - done
+4) Profile screen the “+” should in centre and also add the text “ Create New Library” - done
+5) Edit Profile should take individual changes  - done
+6) Profile the white space between image and library should be decreased - done
+7) Follow user, the following shows after few minutes. Also single press increases the followers. - done
+8) Unfollow user does not show any result - done
+9) Add user under collection takes lot of time
+9) When people get changed from library the user added to that library comes first - done
+10)Create post image- camera and gallery - done
+11) Posting image - tag user.

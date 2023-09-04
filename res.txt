@@ -1,0 +1,27 @@
+1. Share Stories to social media platforms
+
+    https://pub.dev/packages/social_share
+    
+    flutter_social_content_share
+    https://pub.dev/packages/flutter_social_content_share
+
+    Sharing to Stories - (facebook/insta)
+    https://developers.facebook.com/docs/instagram/sharing-to-stories#android-developers
+
+    Sharing on iOS
+    https://developers.facebook.com/docs/sharing/ios
+
+Flutter Instagram Stories Bar
+https://www.youtube.com/watch?v=ilX5hnH8XoI
+
+Terms of service - https://taleway-app.web.app/#/terms-of-service
+
+Privcay policy - https://taleway-app.web.app/#privacy-policy
+
+Get size of image
+https://stackoverflow.com/questions/44665955/how-do-i-determine-the-width-and-height-of-an-image-in-flutter
+
+
+Notification Resources
+https://github.com/firebase/functions-samples/blob/main/fcm-notifications/functions/index.js
+https://firebase.google.com/docs/cloud-messaging/ios/send-image
