@@ -19,7 +19,7 @@ class ShareService {
         File(imagePath).writeAsBytesSync(bytes);
         print('Image path --$imagePath');
 
-        await Share.shareFiles([imagePath], text: text ?? '');
+        await Share.share(imagePath, subject: text ?? '');
         // _storyController.play();
       }
     } catch (error) {

@@ -1,7 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:viewstories/utils/constants.dart';
+import 'package:taleway/utils/constants.dart';
+
 
 class UserAvatar extends StatelessWidget {
   final String? imageUrl;

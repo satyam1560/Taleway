@@ -1,7 +1,8 @@
 import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:equatable/equatable.dart';
-import 'package:viewstories/models/tag_user.dart';
+import 'package:taleway/models/tag_user.dart';
+
 import '/config/paths.dart';
 import '/models/app_user.dart';
 

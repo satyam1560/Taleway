@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:viewstories/widgets/show_snackbar.dart';
+import 'package:taleway/widgets/show_snackbar.dart';
+
 import '/blocs/add-to-lib/add_to_collection_cubit.dart';
 import '/widgets/loading_indicator.dart';
 import '../screens/others-profile/widgets/action_buttons.dart';

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:viewstories/widgets/gradient_circle_button.dart';
+import 'package:taleway/widgets/gradient_circle_button.dart';
+
 import '/blocs/auth/auth_bloc.dart';
 
 class Logout extends StatelessWidget {

@@ -1,8 +1,10 @@
-import 'package:bloc/bloc.dart';
+
 import 'package:equatable/equatable.dart';
-import 'package:viewstories/models/app_user.dart';
-import 'package:viewstories/models/failure.dart';
-import 'package:viewstories/models/tag_user.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:taleway/models/app_user.dart';
+import 'package:taleway/models/failure.dart';
+import 'package:taleway/models/tag_user.dart';
+
 part 'tag_user_event.dart';
 part 'tag_user_state.dart';
 

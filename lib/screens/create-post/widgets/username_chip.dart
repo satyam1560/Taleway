@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:viewstories/screens/create-post/cubit/create_post_cubit.dart';
+import 'package:taleway/screens/create-post/cubit/create_post_cubit.dart';
+
 
 class UserNameChip extends StatelessWidget {
   const UserNameChip({Key? key}) : super(key: key);

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:viewstories/models/failure.dart';
-import 'package:viewstories/utils/constants.dart';
-import 'package:viewstories/widgets/gradient_circle_button.dart';
-import 'package:viewstories/widgets/show_snackbar.dart';
+import 'package:taleway/models/failure.dart';
+import 'package:taleway/utils/constants.dart';
+import 'package:taleway/widgets/gradient_circle_button.dart';
+import 'package:taleway/widgets/show_snackbar.dart';
+
 import '/repositories/auth/auth_repo.dart';
 
 class ForgotPasswordScreen extends StatelessWidget {

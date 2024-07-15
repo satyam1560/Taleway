@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_cropper/image_cropper.dart';
-import 'package:viewstories/utils/constants.dart';
+import 'package:taleway/utils/constants.dart';
+
 import '/widgets/loading_indicator.dart';
 import '/screens/edit-profile/cubit/edit_profile_cubit.dart';
 import '/widgets/custom_appbar.dart';

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:viewstories/widgets/custom_gradient_btn.dart';
+import 'package:taleway/widgets/custom_gradient_btn.dart';
+
 import '/screens/create-post/widgets/cubit/profile_collection_cubit.dart';
 import '/widgets/loading_indicator.dart';
 import '/screens/create-post/cubit/create_post_cubit.dart';

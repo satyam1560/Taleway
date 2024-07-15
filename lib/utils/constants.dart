@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:viewstories/enums/enums.dart';
-import 'package:viewstories/models/report.dart';
+import 'package:taleway/enums/enums.dart';
+import 'package:taleway/models/report.dart';
+
 
 const webScreenSize = 600;
 

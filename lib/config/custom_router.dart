@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:viewstories/screens/profile-collection/profile_collection.dart';
-import 'package:viewstories/screens/user-stories/user_stories_screen.dart';
+import 'package:taleway/screens/profile-collection/profile_collection.dart';
+import 'package:taleway/screens/user-stories/user_stories_screen.dart';
+
 import '../screens/feed-collection/feed_collection.dart';
 import '/screens/connectivity/connectivity_screen.dart';
 import '/screens/followings/followings_screen.dart';

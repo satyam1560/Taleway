@@ -1,6 +1,6 @@
 {
-    "name": "stories",
-    "short_name": "stories",
+    "name": "taleway",
+    "short_name": "taleway",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

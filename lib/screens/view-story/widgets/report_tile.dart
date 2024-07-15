@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:viewstories/enums/enums.dart';
+
+import '../../../enums/enums.dart';
+
 
 class ReportTile extends StatelessWidget {
   final String label;

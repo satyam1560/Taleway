@@ -8,7 +8,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:uuid/uuid.dart';
 
 class ImageUtil {
-  static Future<File?> pickImageFromGallery({
+  static Future<CroppedFile?> pickImageFromGallery({
     required CropStyle cropStyle,
     required BuildContext context,
     required String? title,
@@ -19,8 +19,9 @@ class ImageUtil {
     if (pickedFile != null) {
       final croppedFile = await ImageCropper().cropImage(
         sourcePath: pickedFile.path,
-        cropStyle: cropStyle,
-        androidUiSettings: AndroidUiSettings(
+        uiSettings: [
+          AndroidUiSettings(
+            cropStyle: cropStyle,
           toolbarTitle: title,
           toolbarColor: Colors.grey.shade800,
           //toolbarColor: Theme.of(context).primaryColor,
@@ -28,13 +29,17 @@ class ImageUtil {
           initAspectRatio: CropAspectRatioPreset.original,
           lockAspectRatio: false,
         ),
-        iosUiSettings: const IOSUiSettings(),
+          IOSUiSettings(
+          ),
+        
+        ],
         compressQuality: 70,
       );
       return croppedFile;
     }
     return null;
   }
+  
 
   static Future<String> uploadProfileImageToStorage(
     String childName,
@@ -42,10 +47,10 @@ class ImageUtil {
     bool isPost,
     String uid,
   ) async {
-    final FirebaseStorage _storage = FirebaseStorage.instance;
+    final FirebaseStorage storage = FirebaseStorage.instance;
     // creating location to our firebase storage
 
-    Reference ref = _storage.ref().child(childName).child(uid);
+    Reference ref = storage.ref().child(childName).child(uid);
     if (isPost) {
       String id = const Uuid().v1();
       ref = ref.child(id);
@@ -65,10 +70,10 @@ class ImageUtil {
     bool isPost,
     String storyId,
   ) async {
-    final FirebaseStorage _storage = FirebaseStorage.instance;
+    final FirebaseStorage storage = FirebaseStorage.instance;
     // creating location to our firebase storage
 
-    Reference ref = _storage.ref().child(childName).child(storyId);
+    Reference ref = storage.ref().child(childName).child(storyId);
     if (isPost) {
       String id = const Uuid().v1();
       ref = ref.child(id);
@@ -82,3 +87,10 @@ class ImageUtil {
     return downloadUrl;
   }
 }
+// class CropAspectRatioPresetCustom implements CropAspectRatioPresetData {
+//   @override
+//   (int, int)? get data => (2, 3);
+
+//   @override
+//   String get name => '2x3 (customized)';
+// }

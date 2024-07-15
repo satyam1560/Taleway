@@ -5,12 +5,13 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:taleway/screens/comments/comments_screen.dart';
 
 import 'package:timezone/data/latest.dart' as tz;
 
 import 'package:universal_platform/universal_platform.dart';
-import 'package:viewstories/screens/comments/comments_screen.dart';
-import 'package:viewstories/screens/others-profile/others_profile_screen.dart';
+
+import '../others-profile/others_profile_screen.dart';
 import '/config/paths.dart';
 import '/config/shared_prefs.dart';
 import '/services/local_notification_service.dart';

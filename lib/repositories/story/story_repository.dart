@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:viewstories/models/report.dart';
-import 'package:viewstories/models/tag_user.dart';
+import 'package:taleway/models/report.dart';
+import 'package:taleway/models/tag_user.dart';
+
 import '/models/app_user.dart';
 import '/models/views.dart';
 import '/config/paths.dart';

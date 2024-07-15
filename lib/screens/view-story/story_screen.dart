@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:story_view/story_view.dart';
-import 'package:viewstories/widgets/custom_gradient_btn.dart';
-import 'package:viewstories/widgets/show_snackbar.dart';
+import 'package:taleway/widgets/custom_gradient_btn.dart';
+import 'package:taleway/widgets/show_snackbar.dart';
+
 import '/services/services.dart';
 import '/utils/constants.dart';
 import '/blocs/auth/auth_bloc.dart';
@@ -486,7 +487,7 @@ class _StoryScreenState extends State<StoryScreen>
             body: Stack(
               children: [
                 StoryView(
-                  onStoryShow: (s) async {
+                  onStoryShow: (s,index) async {
                     await _addStoryView(
                         storyId: stories[_currentIndex]?.storyId);
                     int index = _storyItems.indexOf(s);

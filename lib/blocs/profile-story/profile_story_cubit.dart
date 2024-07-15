@@ -1,8 +1,10 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+
 import '/models/failure.dart';
 import '/models/story.dart';
 import '/repositories/story/story_repository.dart';
+
 part 'profile_story_state.dart';
 
 class ProfileStoryCubit extends Cubit<ProfileStoryState> {
@@ -25,7 +27,7 @@ class ProfileStoryCubit extends Cubit<ProfileStoryState> {
       print('Collection Name -- $_collectionName');
       print('User id ------ $_userId');
       _storyRepository
-          .streamUserStories(userId: _userId, collectionName: _collectionName!)
+          .streamUserStories(userId: _userId, collectionName: _collectionName)
           .listen((futureStories) async {
         final stories = await Future.wait(futureStories);
         print('Stpries ------- $stories');

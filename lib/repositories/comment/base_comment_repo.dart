@@ -1,4 +1,5 @@
-import 'package:viewstories/models/comment.dart';
+import 'package:taleway/models/comment.dart';
+
 
 abstract class BaseCommentRepository {
   Future<void> createComment({

@@ -1,4 +1,6 @@
-import 'package:viewstories/models/story.dart';
+
+
+import 'package:taleway/models/story.dart';
 
 abstract class BaseStoryRepository {
   Future<void> createStory({

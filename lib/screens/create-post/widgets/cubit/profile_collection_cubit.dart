@@ -2,10 +2,11 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:viewstories/blocs/auth/auth_bloc.dart';
-import 'package:viewstories/config/paths.dart';
-import 'package:viewstories/models/failure.dart';
-import 'package:viewstories/repositories/user/user_repository.dart';
+import 'package:taleway/blocs/auth/auth_bloc.dart';
+import 'package:taleway/config/paths.dart';
+import 'package:taleway/models/failure.dart';
+import 'package:taleway/repositories/user/user_repository.dart';
+
 
 part 'profile_collection_state.dart';
 

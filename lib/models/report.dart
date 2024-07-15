@@ -1,7 +1,9 @@
 import 'package:enum_to_string/enum_to_string.dart';
 import 'package:equatable/equatable.dart';
 
-import 'package:viewstories/enums/enums.dart';
+import '../enums/enums.dart';
+
+
 
 class Report extends Equatable {
   final String reportString;

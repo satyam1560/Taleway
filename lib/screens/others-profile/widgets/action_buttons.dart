@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:viewstories/widgets/gradient_circle_button.dart';
+import 'package:taleway/widgets/gradient_circle_button.dart';
+
 
 class ActionButtons extends StatelessWidget {
   final VoidCallback onTap;

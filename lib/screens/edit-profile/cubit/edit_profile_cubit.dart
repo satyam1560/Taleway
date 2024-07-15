@@ -2,8 +2,9 @@ import 'dart:typed_data';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:viewstories/models/app_user.dart';
-import 'package:viewstories/services/url_to_file.dart';
+import 'package:taleway/models/app_user.dart';
+import 'package:taleway/services/url_to_file.dart';
+
 
 import '/blocs/auth/auth_bloc.dart';
 import '/models/failure.dart';

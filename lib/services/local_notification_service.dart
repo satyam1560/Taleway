@@ -19,11 +19,11 @@ class NotificationService {
       const AndroidInitializationSettings initializationSettingsAndroid =
           AndroidInitializationSettings('app_icon');
 
-      const IOSInitializationSettings initializationSettingsIOS =
-          IOSInitializationSettings();
+      const DarwinInitializationSettings initializationSettingsIOS =
+          DarwinInitializationSettings();
 
-      const MacOSInitializationSettings initializationSettingsMacOS =
-          MacOSInitializationSettings();
+      const DarwinInitializationSettings initializationSettingsMacOS =
+          DarwinInitializationSettings();
 
       const InitializationSettings initializationSettings =
           InitializationSettings(
@@ -34,7 +34,7 @@ class NotificationService {
 
       await flutterLocalNotificationsPlugin.initialize(
         initializationSettings,
-        onSelectNotification: onPressed,
+        // onSelectNotification: onPressed,
       );
     }
   }
@@ -53,7 +53,7 @@ class NotificationService {
       priority: Priority.high,
       importance: Importance.max,
     );
-    var iOS = const IOSNotificationDetails();
+    var iOS = const DarwinNotificationDetails();
     var platform = NotificationDetails(android: android, iOS: iOS);
     await flutterLocalNotificationsPlugin.show(
       id,
@@ -88,7 +88,7 @@ class NotificationService {
           priority: Priority.high,
           importance: Importance.max,
         ),
-        iOS: const IOSNotificationDetails(
+        iOS: const DarwinNotificationDetails(
           subtitle: 'Reminder',
         ),
       ),

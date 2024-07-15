@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:viewstories/models/tag_user.dart';
+import 'package:taleway/models/tag_user.dart';
+
 import '/models/app_user.dart';
 import '/repositories/user/user_repository.dart';
 import '/screens/create-post/widgets/tag-user/bloc/tag_user_bloc.dart';
