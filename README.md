@@ -1,16 +1,10 @@
-# taleway
+# Taleway 
 
-A new Flutter project.
+## Short Intro
 
-## Getting Started
+- Capture and cherish life's moments with loved ones through a memorable events sharing app, where you can post pictures, stories, and more with close friends and relatives.
+  
+## Screen Shots
+![Images](https://github.com/user-attachments/assets/7b7d86dd-1f13-4ab3-b7c0-998ef225d3e4)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
